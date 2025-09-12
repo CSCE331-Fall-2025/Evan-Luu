@@ -1,0 +1,47 @@
+.hello{
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    text-align: center;
+    border: 10px;
+    border-color: white;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  border-top: 5px solid black;
+  text-align: center;
+}
+
+.footer-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 200px; /* Space between buttons */
+  padding: 20px;
+}
+
+body {
+  background-image: url("images/home\ page.jpg");
+  background-size: cover;
+}
+
+.page-service {
+  background-image: url("images/service.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+
+.page-qual {
+  background-image: url("images/Qualificationspic.jpg");
+  background-size:auto;
+  background-repeat: no-repeat;
+}
+
+.page-technical {
+  background-image: url("images/ff13-2academia2.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+}
