@@ -1,0 +1,99 @@
+body {
+  background-image: url("images/style2\ landing\ page.jpg");
+  background-size: cover;
+  font-family: "Garamond";
+  color: white;
+  background-color: #0009;
+}
+
+.body-text {
+  font-family: "Garamond";
+  font-size: 1.2rem;
+  line-height: 1.8;      
+  color: white;        
+  letter-spacing: 0.5px;
+  text-align: justify;   
+  text-shadow: 0.5px 0.5px 0px rgba(200, 180, 150, 0.3); 
+  background-color: #0009; 
+  padding: 20px;
+  border-radius: 5px;    
+  top: 50px;
+}
+
+.hello{
+    color: black;
+    font-size: 3rem;
+    text-align: center;
+    border: 10px;
+    border-color: white;
+}
+
+
+.footer {
+  position: fixed;
+  font-family:"Garamond";
+  top: 50px;           
+  left: 10px;
+  border: 2px solid black;
+  padding: 10px;
+  background-color: white;
+  z-index: 1000;
+  border-radius: 5px;      
+  display:none 
+}
+
+.footer-row {
+  display: flex;
+  flex-direction: column; 
+  gap: 10px;
+  font-family:"Garamond";
+}
+
+.page-service{
+  background-image: url("images/style2\ services.jpg");
+  background-size:cover;
+}
+.page-qual {
+  background-image: url("images/style2\ qualifications\ page.jpg");
+  background-size:cover;
+}
+
+.page-technical {
+  background-image: url("images/style2\ technological\ portfolio.jpg");
+  background-size:cover;
+}
+
+body {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+h3 {
+  color: white;
+  background-color: #0009;
+}
+
+h4 {
+  color: white;
+}
+
+.lists-container {
+  display: flex;                   
+  justify-content: space-around;   
+  align-items: flex-start;         
+  margin: 0 auto;                  
+  gap: 50px;                       
+}
+
+.left-list, .right-list {
+  flex: 1;                         
+  text-align: left;  
+  background-color: #0009; 
+  padding: 20px;  
+  color: white;            
+}
+
+ul {
+  list-style-position: inside;     
+  padding-left: 0;                 
+}
